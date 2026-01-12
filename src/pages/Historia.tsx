@@ -795,7 +795,7 @@ const Historia = () => {
                     setExpandedItems(new Set());
                     setShowAll(false);
                   }}
-                   className={`font-body rounded-full px-4 py-2 text-sm transition-all duration-300 ${
+                  className={`font-body rounded-full px-4 py-2 text-sm transition-all duration-300 ${
                     selectedDrink === drink.name ? 'bg-gold text-background' : 'bg-background text-foreground hover:bg-gold/20 border-border border'
                   }`}
                 >

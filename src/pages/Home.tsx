@@ -74,7 +74,11 @@ const drinkCategories = [
 const Home = () => {
   return (
     <Layout>
-      <SEOHelmet title={"Arte & Coquetel"} description={"Descubra a história fascinante das bebidas mais icônicas do mundo e aprenda a criar coquetéis extraordinários."} image={heroImage} />
+      <SEOHelmet
+        title={'Arte & Coquetel'}
+        description={'Descubra a história fascinante das bebidas mais icônicas do mundo e aprenda a criar coquetéis extraordinários.'}
+        image={heroImage}
+      />
 
       <section className="relative flex min-h-screen items-center">
         <div className="absolute inset-0">

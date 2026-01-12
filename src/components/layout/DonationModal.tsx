@@ -16,7 +16,8 @@ export const DonationModal = ({ isOpen, onOpenChange }: DonationModalProps) => {
 
   const handleCopyPix = async () => {
     try {
-      const pixKey = '00020101021126580014br.gov.bcb.pix0136b414d633-e310-4ccf-9a8c-9aafe975e4775204000053039865802BR5922CARLOS EDUARDO DE LIMA6013BRACO DO NORT62070503***63040B6F';
+      const pixKey =
+        '00020101021126580014br.gov.bcb.pix0136b414d633-e310-4ccf-9a8c-9aafe975e4775204000053039865802BR5922CARLOS EDUARDO DE LIMA6013BRACO DO NORT62070503***63040B6F';
       await navigator.clipboard.writeText(pixKey);
 
       setCopied(true);
