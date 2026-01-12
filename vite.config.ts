@@ -9,7 +9,7 @@ export default defineConfig(({ mode }) => ({
   plugins: [
     react(),
     Sitemap({
-      hostname: 'https://arteecoquetelaria.com.br',
+      hostname: 'https://artedocoquetel.com.br',
       dynamicRoutes: dynamicRoutes,
       robots: [
         {
