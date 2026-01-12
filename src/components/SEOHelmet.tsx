@@ -9,7 +9,7 @@ interface SEOHelmetProps {
 }
 
 export function SEOHelmet({ title, description, image }: SEOHelmetProps) {
-  const siteUrl = 'https://arteecoquetelaria.com.br';
+  const siteUrl = 'https://artedocoquetel.com.br';
   const defaultImage = '/og-image-padrao.jpg';
 
   return (
