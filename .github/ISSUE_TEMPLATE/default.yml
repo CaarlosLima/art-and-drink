@@ -1,0 +1,12 @@
+name: Default Template
+body:
+  - type: textarea
+    attributes:
+      label: Context
+      description: Provide any relevant background information.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Progress
+      description: Step-by-step detailed resolution of the issue.
