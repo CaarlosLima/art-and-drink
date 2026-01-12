@@ -1,4 +1,5 @@
 name: Default Template
+description: Use this template for general issues.
 body:
   - type: textarea
     attributes:
