@@ -1,3 +1,5 @@
+import banzeiroImage from '@/assets/banzeiro.jpg';
+import manhattanImage from '@/assets/manhattan.jpg';
 import { DrinkCard } from '@/components/drinks/DrinkCard';
 import { RecipeDetailModal } from '@/components/drinks/RecipeDetailModal';
 import { Layout } from '@/components/layout/Layout';
@@ -74,7 +76,7 @@ const allRecipes: Recipe[] = [
   {
     name: 'Manhattan',
     description: 'Sofisticação em cada gole. O drink da elite nova-iorquina.',
-    image: 'src/assets/manhattan.jpg',
+    image: manhattanImage,
     ingredients: [
       { amount: '60ml', name: 'Bourbon Whisky' },
       { amount: '20ml', name: 'Vermute doce' },
@@ -483,7 +485,7 @@ const allRecipes: Recipe[] = [
   {
     name: 'Banzeiro',
     description: 'Considerado um dos melhores drinks brasileiros, elogiado por sua complexidade e sabor',
-    image: 'src/assets/banzeiro-2.jpg',
+    image: banzeiroImage,
     ingredients: [
       { amount: '50ml', name: 'Cachaça' },
       { amount: '20ml', name: 'Suco de Limão' },
